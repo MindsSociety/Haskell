@@ -1,0 +1,13 @@
+*.a
+*.o
+*.hi
+*.h
+*~
+*#*
+build/
+dist/
+
+Setup.hs
+
+# Haskell Program Coverage
+.hpc

@@ -3,10 +3,13 @@ Haskell
 
 Haskell class 2014
 
-## Download
-[Download Haskell](https://www.haskell.org/platform/)
+## Join The Minds GitHub
+Send an email with your GitHub username to [minds@nuimsu.com](mailto:minds@nuimsu.com)
+to get read/write access to this repository.
 
-[Download Sublime Text](http://www.sublimetext.com/3)
+## Downloads
+- [Haskell](https://www.haskell.org/platform/)
+- [Sublime Text](http://www.sublimetext.com/3)
 
 ## Resources
 - Recommended Text: [Learn You a Haskell for Great Good](http://learnyouahaskell.com)

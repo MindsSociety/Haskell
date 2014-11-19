@@ -1,17 +1,6 @@
-# Function, Pattern Matching and Recursion
+# Types and Typeclasses
 
-## Functions
-
-Functions are defined at the top level.  Haskell uses spaces to separate
-function parameters rather than brackets.
-
-```Haskell
-addOne x = x + 1
-```
-
-This function will return a number (x + 1) given any input x.
-
-### Types
+## Types
 
 Haskell uses a strict type systems, i.e. it uses types like `Int`, `Float`,
 `Double`, `Boolean`, `Char` etc.  but it is not like most languages.  Haskell
@@ -99,16 +88,3 @@ factorial n =  product [1..n]
 Here we use the `Enum` and `Num` type class because the `product` function is of
 type `product :: Num a => [a] -> a` and `..` is a function that works with
 Enumarator types.
-
-## Pattern Matching
-
-Haskell will treat multiple functions with the same name as different patterns
-for a function to follow.  If we know a definite answer for a given input, we
-can define a pattern for it.  For example if we try to divide by 0 we should get
-an error.  The function below defines the inverse function, `λ x -> 1 / x`, for
-any given number `x` the function should return `1 / x`, unless `x == 0`.
-
-```Haskell
-inverse 0 = error "Divide by zero"
-inverse x = 1 / x
-```

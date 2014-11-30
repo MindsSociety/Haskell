@@ -64,3 +64,11 @@ instance Num a => Num (Complex a) where
 
 cmap :: (a -> b) -> Complex a -> Complex b
 cmap f c = Complex (f $ real c) (f $ imag c)
+
+
+-- | Infix constructor operator
+(+:) :: a -> a -> Complex a
+infix 6 +:
+r +: i = Complex r i
+
+main = print $ (1 +: 2) + (2 +: 1)
